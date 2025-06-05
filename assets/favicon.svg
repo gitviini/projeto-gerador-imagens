@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:export-filename="favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient4"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#dad7dd;stop-opacity:1;"
+         offset="0.5"
+         id="stop3" />
+      <stop
+         style="stop-color:#b3a5b6;stop-opacity:1;"
+         offset="0.5"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#7a5bf8;stop-opacity:1;"
+         offset="0.5"
+         id="stop1" />
+      <stop
+         style="stop-color:#a48df8;stop-opacity:1;"
+         offset="0.5"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="0"
+       y1="32"
+       x2="64"
+       y2="32"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       x1="0"
+       y1="32"
+       x2="64"
+       y2="32"
+       gradientTransform="translate(-64,-63.999401)" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.6128737"
+     inkscape:cx="28.647555"
+     inkscape:cy="35.705649"
+     inkscape:window-width="1285"
+     inkscape:window-height="761"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="art">
+    <circle
+       style="display:inline;fill:url(#linearGradient2);stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="32"
+       cy="32"
+       r="31"
+       inkscape:label="purple" />
+    <path
+       style="display:inline;fill:url(#linearGradient3);stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="path1-9"
+       sodipodi:type="arc"
+       sodipodi:cx="-32"
+       sodipodi:cy="-31.999399"
+       sodipodi:rx="31"
+       sodipodi:ry="31"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m -1,-31.999399 a 31,31 0 0 1 -15.5,26.8467876 31,31 0 0 1 -31.000001,-7e-7 A 31,31 0 0 1 -63,-31.999399"
+       transform="scale(-1)"
+       inkscape:label="gray" />
+    <rect
+       style="fill:#dbdbdb;stroke:#000000;stroke-width:1.46386;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="61.536144"
+       x="1.23193"
+       y="31.731926"
+       height="0.53614467"
+       inkscape:label="center-line" />
+    <circle
+       style="fill:#f0888f;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="path4"
+       cx="32.000004"
+       cy="32"
+       r="15"
+       inkscape:label="sensor-glass" />
+    <circle
+       style="fill:#f3f3f3;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="path4-6"
+       cx="32.000004"
+       cy="32"
+       r="9"
+       inkscape:label="glass" />
+    <circle
+       style="fill:#f3f3f3;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="path4-6-8"
+       cx="48.000004"
+       cy="16"
+       r="4"
+       inkscape:label="flash" />
+  </g>
+</svg>
