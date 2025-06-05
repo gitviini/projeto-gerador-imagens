@@ -13,8 +13,10 @@
 }
 
 ::selection {
-  background: var(--dark-gray); /* Cor de fundo do texto selecionado */
-  color: var(--foreground); /* Cor da fonte do texto selecionado */
+    background: var(--dark-gray);
+    /* Cor de fundo do texto selecionado */
+    color: var(--foreground);
+    /* Cor da fonte do texto selecionado */
 }
 
 html,
@@ -147,6 +149,7 @@ main {
     height: auto;
     min-height: 100%;
     margin-left: var(--container-size);
+    min-width: 300px;
     width: calc(100% - var(--container-size));
 
     .container-header {
@@ -160,7 +163,7 @@ main {
         background-color: var(--foreground);
         color: var(--background);
 
-        .container-title{
+        .container-title {
             width: 60%;
         }
     }
@@ -202,14 +205,13 @@ main {
     }
 
     h1 {
-        font-size: clamp(22px, 5vw, 30px);
+        font-size: clamp(23px, 5vw, 30px);
         padding: 1rem 0.25rem;
         line-height: 2rem;
 
         &::before {
             content: "# ";
             color: var(--button);
-
         }
     }
 
@@ -228,19 +230,19 @@ main {
     font-size: 1.5rem;
 }
 
-.row{
+.row {
     display: flex;
     flex-flow: row;
     gap: 0.5rem;
 
-    button{
+    button {
         display: flex;
         justify-content: center;
         align-items: center;
         width: auto;
         color: var(--background);
 
-        .bi{
+        .bi {
             font-size: 1.2rem;
             translate: -1px 1px;
         }
@@ -280,12 +282,12 @@ form {
         transition: 0.2s ease-out;
     }
 
-    .img{
+    .img {
         border-radius: 1rem;
         box-shadow: var(--box-shadow);
     }
 
-    button{
+    button {
         border: none;
     }
 }
@@ -323,9 +325,9 @@ button {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     main {
-        .container-header > .container-title{
+        .container-header>.container-title {
             width: 100%;
         }
 
@@ -333,16 +335,23 @@ button {
             width: 100%;
         }
     }
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
     }
 
-    .bi{
+    .bi {
         font-size: clamp(1rem, 5vw, 1.5rem);
     }
 
-    header{
+    header nav ul .container-logo img {
+        min-width: 1rem;
+        width: 5vw;
+        max-width: 1.5rem;
+    }
+
+    header {
         position: relative;
         width: 100%;
         order: 1;
@@ -350,7 +359,7 @@ button {
         border-right: unset;
         border-top: 1px solid var(--border-color);
 
-        nav > ul{
+        nav>ul {
             flex-direction: row;
             justify-content: center;
             gap: 0.25rem;
@@ -362,14 +371,14 @@ button {
                 transform-origin: 1.8rem 4rem;
                 justify-content: center;
 
-                &::before{
+                &::before {
                     transform: translateY(0.7rem) rotate(45deg);
                 }
             }
         }
     }
 
-    main{
+    main {
         width: 100%;
         height: auto;
         min-height: calc(100% - var(--container-size));
